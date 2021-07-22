@@ -9,6 +9,13 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
+    
+    @IBOutlet weak var headLabel: UILabel!
+    @IBOutlet weak var textLabel: UILabel!
+    
+    var answers : [Answer] = []
+    
+    
     // 1. Передать сюда массив с ответами
     // 2. Определить наиболее часто встерчающийся тип живтоного
     // 3. Отобразить результат в соответсвии с этим животным
@@ -18,7 +25,6 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     
