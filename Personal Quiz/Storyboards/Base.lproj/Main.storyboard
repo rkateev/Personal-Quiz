@@ -333,6 +333,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="backButton" destination="VT3-yb-WCo" id="3WW-3R-inU"/>
                         <outlet property="headLabel" destination="u3z-kS-o91" id="Qfw-gQ-WSy"/>
                         <outlet property="textLabel" destination="tYD-UK-NKY" id="qW6-hD-Raw"/>
                     </connections>
